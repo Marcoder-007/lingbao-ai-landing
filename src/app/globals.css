@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-main: #ffffff;
+  --bg-sub: #f7f8fa;
+  --bg-sub-alt: #f0f4f8;
+  --card-bg: #ffffff;
+  --primary: #1b3a6b;
+  --accent: #d4a853;
+  --success: #2e8b57;
+  --text-main: #1a1a2e;
+  --text-muted: #6b7280;
+  --border: #e5e7eb;
+  --danger: #dc2626;
+  --success-fill: #16a34a;
+  --card-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  --card-shadow-hover: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+body {
+  color: var(--text-main);
+  background: var(--bg-main);
+  line-height: 1.8;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Paragraph spacing */
+p + p {
+  margin-top: 0.75em;
+}
