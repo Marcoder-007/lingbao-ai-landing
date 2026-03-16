@@ -7,13 +7,13 @@ import { fadeInUp } from "@/lib/animations";
 const plans = [
   {
     name: "基础版",
-    price: "¥3,999",
+    price: "¥4,999",
     period: "/月",
     features: [
-      { label: "方案数量", value: "30/月" },
+      { label: "方案数量", value: "100/月" },
       { label: "客户管理", value: "100" },
       { label: "产品库", value: "500+" },
-      { label: "智能跟进", value: false },
+      { label: "大模型部署", value: false },
       { label: "会议参与", value: false },
       { label: "团队协作", value: false },
       { label: "深度定制", value: false },
@@ -23,13 +23,13 @@ const plans = [
   },
   {
     name: "专业版",
-    price: "¥6,999",
+    price: "¥8,999",
     period: "/月",
     features: [
       { label: "方案数量", value: "无限" },
       { label: "客户管理", value: "500" },
       { label: "产品库", value: "500+" },
-      { label: "智能跟进", value: true },
+      { label: "大模型部署", value: true },
       { label: "会议参与", value: true },
       { label: "团队协作", value: false },
       { label: "深度定制", value: false },
@@ -39,13 +39,13 @@ const plans = [
   },
   {
     name: "旗舰版",
-    price: "¥9,999",
+    price: "¥12,999",
     period: "/月",
     features: [
       { label: "方案数量", value: "无限" },
       { label: "客户管理", value: "无限" },
       { label: "产品库", value: "500+" },
-      { label: "智能跟进", value: true },
+      { label: "大模型部署", value: true },
       { label: "会议参与", value: true },
       { label: "团队协作", value: true },
       { label: "深度定制", value: true },
