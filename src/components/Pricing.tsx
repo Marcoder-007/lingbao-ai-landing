@@ -27,7 +27,7 @@ const plans = [
     period: "/月",
     features: [
       { label: "方案数量", value: "无限" },
-      { label: "客户管理", value: "2,000" },
+      { label: "客户管理", value: "500" },
       { label: "产品库", value: "500+" },
       { label: "智能跟进", value: true },
       { label: "会议参与", value: true },
